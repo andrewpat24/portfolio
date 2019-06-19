@@ -3,12 +3,15 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Deploying Application
 
 Open package.json file and update the following field to match your information:
+
 `"homepage": "https://[username].github.io/[repo-name]"`
 
 To publish it at https://[username].github.io/[repo-name] , run:
+
 `yarn run deploy`
 
 Find out more about deployment here:
+
 `https://bit.ly/CRA-deploy`
 
 ## Available Scripts
