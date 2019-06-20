@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://andrewpat24.github.io/portfolio",
   "dependencies": {
+    "bulma": "^0.7.5",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1"
