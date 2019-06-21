@@ -5,12 +5,14 @@
   "homepage": "https://andrewpat24.github.io/portfolio",
   "dependencies": {
     "bulma": "^0.7.5",
+    "node-sass": "^4.12.0",
+    "nodemon": "^1.19.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts start --watch",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "predeploy": "npm run build",

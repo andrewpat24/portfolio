@@ -1,0 +1,19 @@
+@import "./base/Colors.scss";
+@import "./base/Base.scss";
+
+.hero-container {
+  background-color: $theme-dark-blue;
+  min-height: 100vh;
+}
+
+.hero-container .hero div {
+  font-weight: bold;
+}
+
+.hero-title {
+  font-size: 7em;
+}
+
+.hero-subtitle {
+  font-size: 4em;
+}
