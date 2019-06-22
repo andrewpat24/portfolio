@@ -13,7 +13,7 @@ function HeroComponent() {
         <div className="hero has-text-centered ">
           <div className="subtitle hero-subtitle has-text-light">Hi,</div>
           <div className="title hero-title has-text-light">I'm Andrew.</div>
-          <div className="subtitle hero-position hero-subtitle has-text-light-orange">
+          <div className="subtitle hero-position hero-subtitle has-text-pop-color">
             Software Developer
           </div>
 
