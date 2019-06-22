@@ -1,3 +1,5 @@
+@import "./Colors.scss";
+
 html {
   font-size: 62.5%;
 }
@@ -10,4 +12,12 @@ html {
 .horizontally-center {
   display: flex;
   justify-content: center;
+}
+
+.static-columns {
+  display: flex;
+}
+
+.static-column {
+  padding: 10px;
 }

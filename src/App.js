@@ -5,12 +5,6 @@ function App() {
   return (
     <section className="app">
       <HeroComponent />
-      <div>
-        <div className="columns">
-          <div className="column">test</div>
-          <div className="column">test</div>
-        </div>
-      </div>
     </section>
   );
 }
