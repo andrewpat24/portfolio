@@ -1,10 +1,12 @@
 import React from "react";
-import HeroComponent from "./components/HeroComponent";
+import Hero from "./components/HeroComponent";
+import Skills from "./components/SkillsComponent";
 
 function App() {
   return (
     <section className="app">
-      <HeroComponent />
+      <Hero />
+      <Skills />
     </section>
   );
 }

@@ -18,24 +18,44 @@ function HeroComponent() {
           </div>
 
           <div className="static-columns hero-contact-icons horizontally-center vertically-center">
-            <div className="static-column">
-              <a className="contact-icon" href={linkedInUrl} target="_blank">
-                <i class="fab fa-linkedin-in contact-icon" />
+            <div className="static-column-15">
+              <a
+                className="contact-icon"
+                href={linkedInUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-linkedin-in contact-icon" />
               </a>
             </div>
-            <div className="static-column">
-              <a className="contact-icon" href={githubUrl} target="_blank">
-                <i class="fab fa-github contact-icon" />
+            <div className="static-column-15">
+              <a
+                className="contact-icon"
+                href={githubUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-github contact-icon" />
               </a>
             </div>
-            <div className="static-column">
-              <a className="contact-icon" href={twitterUrl} target="_blank">
-                <i class="fab fa-twitter " />
+            <div className="static-column-15">
+              <a
+                className="contact-icon"
+                href={twitterUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-twitter " />
               </a>
             </div>
-            <div className="static-column">
-              <a className="contact-icon" href={mailToUrl} target="_blank">
-                <i class="far fa-envelope contact-icon" />
+            <div className="static-column-15">
+              <a
+                className="contact-icon"
+                href={mailToUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="far fa-envelope contact-icon" />
               </a>
             </div>
           </div>

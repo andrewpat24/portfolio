@@ -1,0 +1,28 @@
+@import "./base/Base.scss";
+
+.SkillsCardComponent {
+  padding: 5%;
+}
+
+.card-description {
+  font-size: 2em;
+}
+
+.card-section {
+  padding: 2.5% 0.5% 2.5%;
+}
+
+.item {
+  font-size: 1.25em;
+}
+
+.shadowed {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+.grey-background {
+  background-color: #ededed;
+  white-space: nowrap;
+  padding: 2.5px;
+  border-radius: 4px;
+}
