@@ -13,7 +13,7 @@ function SkillsCardComponent(props) {
     itemList.forEach(item => {
       markup.push(
         <div className="static-column-10 item text-center" key={item}>
-          <div className="grey-background">{item}</div>
+          <div className="grey-text-background">{item}</div>
         </div>
       );
     });

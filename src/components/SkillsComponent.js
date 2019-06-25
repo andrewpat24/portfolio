@@ -19,7 +19,13 @@ function SkillsComponent() {
   `;
   const backendLanguages = ["JavaScript", "Python", "Java", "C#"];
   const backendFrameworks = ["Node", "Express JS", ".NET"];
-  const backendTools = ["MySQL", "PostgreSQL", "MongoDB", "AWS Lambda"];
+  const backendTools = [
+    "MySQL",
+    "PostgreSQL",
+    "MongoDB",
+    "AWS Lambda",
+    "Postman"
+  ];
 
   return (
     <section className="SkillsComponent">
