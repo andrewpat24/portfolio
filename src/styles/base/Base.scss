@@ -4,6 +4,11 @@ html {
   font-size: 62.5%;
 }
 
+.arrange-contents-vertically {
+  display: flex;
+  flex-direction: column;
+}
+
 .vertically-center {
   display: flex;
   align-items: center;
@@ -19,5 +24,32 @@ html {
 }
 
 .static-column {
+  padding: 15px;
+}
+
+.static-column-15 {
+  padding: 15px;
+}
+
+.static-column-10 {
   padding: 10px;
+}
+
+.static-column-5 {
+  padding: 5px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.section-header {
+  font-size: 4em;
+}
+
+.grey-text-background {
+  background-color: #ededed;
+  white-space: nowrap;
+  padding: 2.5px;
+  border-radius: 4px;
 }

@@ -1,10 +1,16 @@
 import React from "react";
-import HeroComponent from "./components/HeroComponent";
+import Hero from "./components/HeroComponent";
+import Skills from "./components/SkillsComponent";
+import Projects from "./components/ProjectsComponent";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <section className="app">
-      <HeroComponent />
+      <Hero />
+      <Skills />
+      <Projects />
+      <Footer />
     </section>
   );
 }
