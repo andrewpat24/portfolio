@@ -1,45 +1,46 @@
 import React from "react";
 import "../styles/ProjectCard.scss";
 
-function ProjectCardComponent() {
+function ProjectCardComponent(props) {
+  const title = props.Title;
+  const imgPath = props.Image;
+  const description = props.Description;
+
+  const generateItemMarkeup = (props, field) => {
+    if (typeof props[field] === "undefined") {
+      return "";
+    }
+
+    const itemList = props[field];
+    let markup = new Array();
+
+    itemList.forEach(item => {
+      markup.push(
+        <div className="static-column-10 text-center" key={item}>
+          <div className="grey-text-background">{item}</div>
+        </div>
+      );
+    });
+
+    return markup;
+  };
+
   return (
     <section className="ProjectCardComponent horizontally-center">
       <div className="card add-border-radius">
         <div className="card-image">
           <figure className="image is-4by3">
-            <img
-              src="https://bulma.io/images/placeholders/640x480.png"
-              alt="Placeholder image"
-            />
+            <img src={props.Image} alt="Project Image" />
           </figure>
         </div>
         <div className="card-content">
-          <div className="title">HushHush</div>
+          <div className="title">{props.Title}</div>
           <div className="project-description">
-            <p className="subtitle is-5">
-              A service for sharing files securely. Upload your file, set a
-              secret key, tell us how long you need it available, and how many
-              times it may be downloaded. We then provide a link to download the
-              file using the secret key as a password.
-            </p>
+            <p className="subtitle is-5">{props.Description}</p>
           </div>
           <div className="project-tooling">
             <div className="static-columns is-multiline horizontally-center project-tools">
-              <div className="static-column-10 text-center">
-                <div className="grey-text-background">Test</div>
-              </div>
-              <div className="static-column-10 text-center">
-                <div className="grey-text-background">Test</div>
-              </div>
-              <div className="static-column-10 text-center">
-                <div className="grey-text-background">Test</div>
-              </div>
-              <div className="static-column-10 text-center">
-                <div className="grey-text-background">Test</div>
-              </div>
-              <div className="static-column-10 text-center">
-                <div className="grey-text-background">Test</div>
-              </div>
+              {generateItemMarkeup(props, "Tools")}
             </div>
           </div>
         </div>
