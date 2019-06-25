@@ -3,7 +3,10 @@ import "../styles/Projects.scss";
 import ProjectCard from "./ProjectCardComponent";
 
 // Project Images
-import LaneBreachImg from "../images/640x480.png";
+import HushHushImg from "../images/HushHush.png";
+import EmailyImg from "../images/React-icon.svg";
+import LaneBreachImg from "../images/LaneBreachLogo.jpg";
+import PortfolioImg from "../images/portfolio.png";
 
 function ProjectCardGeneratorComponent() {
   const HushHush = {
@@ -12,7 +15,7 @@ function ProjectCardGeneratorComponent() {
         secret key, tell us how long you need it available, and how many
         times it may be downloaded. We then provide a link to download the
         file using the secret key as a password.`,
-    Image: "https://bulma.io/images/placeholders/640x480.png",
+    Image: HushHushImg,
     Tools: ["Node.js", "Express", "React", "AWS Lambda", "MongoDB Atlas"],
     Source: "https://github.com/hushhushpass/hushpass"
   };
@@ -20,7 +23,7 @@ function ProjectCardGeneratorComponent() {
   const Emaily = {
     Title: "Emaily",
     Description: `Emaily utilizes google oauth, stripe, and sendgrid APIs to allow users to send and review email surveys. Created during Stephen Grider's Express with React Udemy course.`,
-    Image: "https://bulma.io/images/placeholders/640x480.png",
+    Image: EmailyImg,
     Tools: [
       "React",
       "Node.js",
@@ -40,7 +43,15 @@ function ProjectCardGeneratorComponent() {
     Source: "https://github.com/lanebreach/frontend"
   };
 
-  const ProjectList = [HushHush, Emaily, LaneBreach];
+  const Portfolio = {
+    Title: "Portfolio",
+    Description: `A modular portfolio that can be easily modified by and for other developers.`,
+    Image: PortfolioImg,
+    Tools: ["React", "Bulma"],
+    Source: "https://github.com/andrewpat24/portfolio"
+  };
+
+  const ProjectList = [HushHush, Emaily, LaneBreach, Portfolio];
 
   function generateProjectCards(ProjectList, numberOfCardsToGenerate) {
     let cardMarkeup = [];
@@ -57,6 +68,7 @@ function ProjectCardGeneratorComponent() {
             Description={ProjectList[ii].Description}
             Image={ProjectList[ii].Image}
             Tools={ProjectList[ii].Tools}
+            Source={ProjectList[ii].Source}
           />
         </div>
       );
@@ -67,7 +79,7 @@ function ProjectCardGeneratorComponent() {
   return (
     <section className="ProjectCardComponent">
       <div className="columns is-multiline">
-        {generateProjectCards(ProjectList, 4)}
+        {generateProjectCards(ProjectList, 3)}
       </div>
     </section>
   );

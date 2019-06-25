@@ -2,10 +2,7 @@ import React from "react";
 import "../styles/ProjectCard.scss";
 
 function ProjectCardComponent(props) {
-  const title = props.Title;
-  const imgPath = props.Image;
-  const description = props.Description;
-
+  console.log(props.Source);
   const generateItemMarkeup = (props, field) => {
     if (typeof props[field] === "undefined") {
       return "";
@@ -27,24 +24,26 @@ function ProjectCardComponent(props) {
 
   return (
     <section className="ProjectCardComponent horizontally-center">
-      <div className="card add-border-radius">
-        <div className="card-image">
-          <figure className="image is-4by3">
-            <img src={props.Image} alt="Project Image" />
-          </figure>
-        </div>
-        <div className="card-content">
-          <div className="title">{props.Title}</div>
-          <div className="project-description">
-            <p className="subtitle is-5">{props.Description}</p>
+      <a href={props.Source} target="_blank" rel="noopener noreferrer">
+        <div className="card add-border-radius">
+          <div className="card-image">
+            <figure className="image is-4by3">
+              <img src={props.Image} alt="Project Image" />
+            </figure>
           </div>
-          <div className="project-tooling">
-            <div className="static-columns is-multiline horizontally-center project-tools">
-              {generateItemMarkeup(props, "Tools")}
+          <div className="card-content">
+            <div className="title">{props.Title}</div>
+            <div className="project-description">
+              <p className="subtitle is-5">{props.Description}</p>
+            </div>
+            <div className="project-tooling">
+              <div className="static-columns is-multiline horizontally-center project-tools">
+                {generateItemMarkeup(props, "Tools")}
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      </a>
     </section>
   );
 }
