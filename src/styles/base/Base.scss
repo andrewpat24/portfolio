@@ -4,6 +4,11 @@ html {
   font-size: 62.5%;
 }
 
+.arrange-contents-vertically {
+  display: flex;
+  flex-direction: column;
+}
+
 .vertically-center {
   display: flex;
   align-items: center;

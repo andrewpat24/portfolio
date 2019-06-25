@@ -14,9 +14,8 @@ function ProjectsComponent() {
               <div className="subtitle is-1">Projects</div>
               <div className="projects-description">
                 <p>
-                  After finishing my degree in computer science I have worked on
-                  several personal and professional projects including this
-                  portfolio.
+                  A collection of projects I've done either on my own or through
+                  online classes.
                 </p>
               </div>
             </div>
