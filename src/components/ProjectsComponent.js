@@ -26,7 +26,7 @@ function ProjectsComponent() {
               </div>
             </div>
             <div className="column is-three-quarters">
-              <ProjectCardGenerator />
+              <ProjectCardGenerator numberOfCardsToGenerate={3} />
             </div>
           </div>
         </div>

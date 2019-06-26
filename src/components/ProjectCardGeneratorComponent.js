@@ -8,7 +8,7 @@ import EmailyImg from "../images/React-icon.svg";
 import LaneBreachImg from "../images/LaneBreachLogo.jpg";
 import PortfolioImg from "../images/portfolio.png";
 
-function ProjectCardGeneratorComponent() {
+function ProjectCardGeneratorComponent(props) {
   const HushHush = {
     Title: "HushHush",
     Description: `A service for sharing files securely. Upload your file, set a
@@ -79,7 +79,7 @@ function ProjectCardGeneratorComponent() {
   return (
     <section className="ProjectCard">
       <div className="columns is-multiline">
-        {generateProjectCards(ProjectList, 3)}
+        {generateProjectCards(ProjectList, props.numberOfCardsToGenerate)}
       </div>
     </section>
   );
