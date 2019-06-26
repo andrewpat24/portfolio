@@ -13,3 +13,10 @@ section.AllProjects {
 .title {
   font-size: 3.5em;
 }
+
+.button {
+  -webkit-transition: 0.15s ease-out;
+  -moz-transition: 0.15s ease-out;
+  -o-transition: 0.15s ease-out;
+  transition: 0.15s ease-out;
+}

@@ -9,7 +9,10 @@ function Home() {
       <div className="container">
         <div className="all-projects-header">
           <div className="button-container">
-            <Link to="/portfolio" class="button is-info is-outlined is-large">
+            <Link
+              to="/portfolio"
+              class="button home-btn is-info is-outlined is-large"
+            >
               Home
             </Link>
           </div>

@@ -12,4 +12,8 @@
 
 .projects-page-link a {
   font-size: 1.75em;
+  -webkit-transition: 0.15s ease-out;
+  -moz-transition: 0.15s ease-out;
+  -o-transition: 0.15s ease-out;
+  transition: 0.15s ease-out;
 }
