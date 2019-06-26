@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../styles/Projects.scss";
 import ProjectCardGenerator from "./ProjectCardGeneratorComponent";
 // import ProjectCard from "./ProjectCardComponent";
@@ -19,7 +20,9 @@ function ProjectsComponent() {
                 </p>
               </div>
               <div className="projects-page-link">
-                <a class="button is-primary is-outlined">All Projects</a>
+                <Link to="/Projects" class="button is-primary is-outlined">
+                  All Projects
+                </Link>
               </div>
             </div>
             <div className="column is-three-quarters">

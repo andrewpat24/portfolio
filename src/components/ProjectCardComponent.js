@@ -28,7 +28,11 @@ function ProjectCardComponent(props) {
         <div className="card add-border-radius reduce-card-max-width increase-card-min-width">
           <div className="card-image">
             <figure className="image is-4by3">
-              <img src={props.Image} alt="Project Image" />
+              <img
+                className="add-border-radius"
+                src={props.Image}
+                alt="Project Image"
+              />
             </figure>
           </div>
           <div className="card-content">
