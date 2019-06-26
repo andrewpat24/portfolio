@@ -8,8 +8,8 @@ function App() {
   return (
     <BrowserRouter>
       <section className="app">
-        <Route exact path="/" component={Home} />
-        <Route exact path="/Projects" component={AllProjects} />
+        <Route exact path="/portfolio" component={Home} />
+        <Route exact path="/portfolio/Projects" component={AllProjects} />
         <Footer />
       </section>
     </BrowserRouter>

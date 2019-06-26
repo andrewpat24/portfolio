@@ -20,7 +20,10 @@ function ProjectsComponent() {
                 </p>
               </div>
               <div className="projects-page-link">
-                <Link to="/Projects" class="button is-primary is-outlined">
+                <Link
+                  to="/portfolio/Projects"
+                  class="button is-primary is-outlined"
+                >
                   All Projects
                 </Link>
               </div>
