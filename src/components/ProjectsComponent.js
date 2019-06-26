@@ -18,6 +18,9 @@ function ProjectsComponent() {
                   online classes.
                 </p>
               </div>
+              <div className="projects-page-link">
+                <a class="button is-primary is-outlined">All Projects</a>
+              </div>
             </div>
             <div className="column is-three-quarters">
               <ProjectCardGenerator />
