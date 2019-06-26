@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../styles/Projects.scss";
 import ProjectCardGenerator from "./ProjectCardGeneratorComponent";
 // import ProjectCard from "./ProjectCardComponent";
@@ -6,7 +7,7 @@ import ProjectCardGenerator from "./ProjectCardGeneratorComponent";
 function ProjectsComponent() {
   // <ProjectCardGenerator NumberOfDisplayedProjects={3} />
   return (
-    <section className="ProjectsComponent">
+    <section className="Projects" id="Projects">
       <div className="projects-container">
         <div className="projects">
           <div className="columns is-multiline">
@@ -18,9 +19,14 @@ function ProjectsComponent() {
                   online classes.
                 </p>
               </div>
+              <div className="projects-page-link">
+                <Link to="/Projects" class="button is-primary is-outlined">
+                  All Projects
+                </Link>
+              </div>
             </div>
             <div className="column is-three-quarters">
-              <ProjectCardGenerator />
+              <ProjectCardGenerator numberOfCardsToGenerate={3} />
             </div>
           </div>
         </div>

@@ -1,17 +1,18 @@
 import React from "react";
-import Hero from "./components/HeroComponent";
-import Skills from "./components/SkillsComponent";
-import Projects from "./components/ProjectsComponent";
+import { BrowserRouter, Route } from "react-router-dom";
+import Home from "./components/Home";
+import AllProjects from "./components/AllProjects";
 import Footer from "./components/Footer";
 
 function App() {
   return (
-    <section className="app">
-      <Hero />
-      <Skills />
-      <Projects />
-      <Footer />
-    </section>
+    <BrowserRouter>
+      <section className="app">
+        <Route exact path="/" component={Home} />
+        <Route exact path="/Projects" component={AllProjects} />
+        <Footer />
+      </section>
+    </BrowserRouter>
   );
 }
 
