@@ -28,7 +28,7 @@ function SkillsComponent() {
   ];
 
   return (
-    <section className="SkillsComponent">
+    <section className="Skills">
       <div className="skills-container">
         <div className="subtitle is-1 text-center">Skills</div>
         <div className="columns">

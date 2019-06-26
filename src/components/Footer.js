@@ -14,7 +14,13 @@ function Footer() {
 
           <div className=" subtitle is-3">
             Get the source on{" "}
-            <a href="https://github.com/andrewpat24/portfolio">GitHub</a>
+            <a
+              href="https://github.com/andrewpat24/portfolio"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>
           </div>
         </div>
       </div>

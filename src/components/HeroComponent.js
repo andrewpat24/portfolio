@@ -8,7 +8,7 @@ function HeroComponent() {
   const mailToUrl = "mailto:andrewpat24@gmail.com";
 
   return (
-    <section className="HeroComponent">
+    <section className="Hero">
       <div className="hero-container section horizontally-center vertically-center">
         <div className="hero has-text-centered ">
           <div className="subtitle hero-subtitle has-text-light">Hi,</div>

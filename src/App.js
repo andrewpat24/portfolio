@@ -3,6 +3,7 @@ import Hero from "./components/HeroComponent";
 import Skills from "./components/SkillsComponent";
 import Projects from "./components/ProjectsComponent";
 import Footer from "./components/Footer";
+import About from "./components/About";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Hero />
       <Skills />
       <Projects />
+      <About />
       <Footer />
     </section>
   );

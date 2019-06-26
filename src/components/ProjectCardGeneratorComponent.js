@@ -77,7 +77,7 @@ function ProjectCardGeneratorComponent() {
   }
 
   return (
-    <section className="ProjectCardComponent">
+    <section className="ProjectCard">
       <div className="columns is-multiline">
         {generateProjectCards(ProjectList, 3)}
       </div>

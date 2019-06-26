@@ -25,7 +25,7 @@ function ProjectCardComponent(props) {
   return (
     <section className="ProjectCardComponent horizontally-center">
       <a href={props.Source} target="_blank" rel="noopener noreferrer">
-        <div className="card add-border-radius">
+        <div className="card add-border-radius reduce-card-max-width increase-card-min-width">
           <div className="card-image">
             <figure className="image is-4by3">
               <img src={props.Image} alt="Project Image" />
