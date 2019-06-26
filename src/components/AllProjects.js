@@ -10,7 +10,7 @@ function Home() {
         <p className="subtitle">
           My first website with <strong>Bulma</strong>!
         </p>
-        <Link to="/" class="button is-primary is-outlined">
+        <Link to="/#Projects" class="button is-primary is-outlined">
           Home
         </Link>
       </div>

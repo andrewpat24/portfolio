@@ -7,7 +7,7 @@ import ProjectCardGenerator from "./ProjectCardGeneratorComponent";
 function ProjectsComponent() {
   // <ProjectCardGenerator NumberOfDisplayedProjects={3} />
   return (
-    <section className="Projects">
+    <section className="Projects" id="Projects">
       <div className="projects-container">
         <div className="projects">
           <div className="columns is-multiline">
