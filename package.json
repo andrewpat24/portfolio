@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://andrewpat24.github.io/portfolio",
+  "homepage": "https://andrewpat24.github.io/",
   "dependencies": {
     "bulma": "^0.7.5",
     "gh-pages": "^2.0.1",
