@@ -59,6 +59,11 @@ function HeroComponent() {
               </a>
             </div>
           </div>
+          <div className="learn-more-btn-container horizontally-center vertically-center">
+            <a href="#Skills" className="button learn-more-btn is-outlined">
+              Learn More
+            </a>
+          </div>
         </div>
       </div>
     </section>

@@ -29,7 +29,7 @@ function SkillsComponent() {
 
   return (
     <section className="Skills">
-      <div className="skills-container">
+      <div className="skills-container" id="Skills">
         <div className="subtitle is-1 text-center">Skills</div>
         <div className="columns">
           <div className="column">
