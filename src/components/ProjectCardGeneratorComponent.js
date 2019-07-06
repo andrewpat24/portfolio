@@ -72,7 +72,7 @@ function ProjectCardGeneratorComponent(props) {
       ii++
     ) {
       cardMarkeup.push(
-        <div className="column" key={ProjectList[ii].Description}>
+        <div className="column is-multiline" key={ProjectList[ii].Description}>
           <ProjectCard
             Title={ProjectList[ii].Title}
             Description={ProjectList[ii].Description}
