@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.76b974a8.chunk.css",
-    "main.js": "/portfolio/static/js/main.8a8c295e.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.8a8c295e.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.4fc610aa.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.4fc610aa.chunk.js.map",
     "runtime~main.js": "/portfolio/static/js/runtime~main.f308c8e6.js",
     "runtime~main.js.map": "/portfolio/static/js/runtime~main.f308c8e6.js.map",
-    "static/js/2.0e6025ed.chunk.js": "/portfolio/static/js/2.0e6025ed.chunk.js",
-    "static/js/2.0e6025ed.chunk.js.map": "/portfolio/static/js/2.0e6025ed.chunk.js.map",
+    "static/js/2.b5625112.chunk.js": "/portfolio/static/js/2.b5625112.chunk.js",
+    "static/js/2.b5625112.chunk.js.map": "/portfolio/static/js/2.b5625112.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.1f00b85f9ae333683cfefb9904850abb.js": "/portfolio/precache-manifest.1f00b85f9ae333683cfefb9904850abb.js",
+    "precache-manifest.8ac52153b06743f3a409e9e04796d5d0.js": "/portfolio/precache-manifest.8ac52153b06743f3a409e9e04796d5d0.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/main.76b974a8.chunk.css.map": "/portfolio/static/css/main.76b974a8.chunk.css.map",
     "static/media/HushHush.png": "/portfolio/static/media/HushHush.07e5706f.png",
     "static/media/LaneBreachLogo.jpg": "/portfolio/static/media/LaneBreachLogo.bb836908.jpg",
     "static/media/React-icon.svg": "/portfolio/static/media/React-icon.05a3e30f.svg",
+    "static/media/android-logo.png": "/portfolio/static/media/android-logo.1e1a717a.png",
     "static/media/linkedinprofile.jpeg": "/portfolio/static/media/linkedinprofile.3023ccad.jpeg",
     "static/media/portfolio.png": "/portfolio/static/media/portfolio.be3bf6bb.png"
   }
