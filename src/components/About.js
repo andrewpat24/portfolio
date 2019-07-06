@@ -19,9 +19,10 @@ function About() {
             <div className="about-description subtitle is-3">
               I'm Andrew, a full stack developer from the Bay Area and graduate
               of San Francisco State University with a Bachelors of Science in
-              CompSci. Growing up I was passionate about computers from gaming.
-              Since then, the ease of spinning up new and interesting projects
-              with web applications has kept me hooked!
+              CompSci. I'm a result-oriented programmer with 2 years of
+              professional software development experience designing and
+              developing software with direct input from end-users to managing
+              development teams for enterprise-level projects.
             </div>
             <div className="about-resume-link horizontally-center">
               <a

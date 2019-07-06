@@ -5,24 +5,29 @@ import "../styles/Skills.scss";
 function SkillsComponent() {
   // Frontend card props
   const frontendTitle = "Front-End Development";
-  const frontendDescription = `I have experience ranging from fixing front-end issues caused
-  by internet explorer in ES5 to utilizing more modern
-  frameworks like React.`;
+  const frontendDescription = `
+    From jQuery to React and Bootstrap to rolling my own libraries, 
+    I'm an extremely flexible front-end developer with strong fundamentals 
+    that can adapt to any tech thrown at me.
+  `;
   const frontendLanguages = ["HTML/CSS", "JavaScript", "TypeScript", "Sass"];
   const frontendFrameworks = ["jQuery", "React", "Bootstrap", "Bulma"];
   const frontendTools = ["Webpack", "Browser Devtools", "Babel"];
 
   // Backend card props
   const backendTitle = "Back-end Development";
-  const backendDescription = `I've worked with both object oriented and functional languages through a web stack or writing scripts. 
-  I'm passionate about linking both front and back ends as elegantly as possible.
+  const backendDescription = `
+    Developed backends for web stacks using JavaScript's Node.js as well as C#'s .NET Core. 
+    I have experience developing a multitude of backend features from DB operations, developing and working with API's, 
+    and authentication.  
   `;
   const backendLanguages = ["JavaScript", "Python", "Java", "C#"];
-  const backendFrameworks = ["Node", "Express JS", ".NET"];
+  const backendFrameworks = ["Node", "Express JS", ".NET Core"];
   const backendTools = [
     "MySQL",
     "PostgreSQL",
     "MongoDB",
+    "Jest",
     "AWS Lambda",
     "Postman"
   ];
