@@ -7,6 +7,7 @@ import HushHushImg from "../images/HushHush.png";
 import EmailyImg from "../images/React-icon.svg";
 import LaneBreachImg from "../images/LaneBreachLogo.jpg";
 import PortfolioImg from "../images/portfolio.png";
+import AndroidImg from "../images/android-logo.png";
 
 function ProjectCardGeneratorComponent(props) {
   const HushHush = {
@@ -51,7 +52,16 @@ function ProjectCardGeneratorComponent(props) {
     Source: "https://github.com/andrewpat24/portfolio"
   };
 
-  const ProjectList = [HushHush, Emaily, LaneBreach, Portfolio];
+  // https://github.com/andrewpat24/EventBrowser
+  const EventBrowser = {
+    Title: "Event Browser",
+    Description: `Android application that utilizes the meetup 
+    API to find local events or gatherings within 10 miles of the user.`,
+    Image: AndroidImg,
+    Tools: ["Java", "Android", "Volley", "APIs", "Meetup"]
+  };
+
+  const ProjectList = [HushHush, Emaily, LaneBreach, Portfolio, EventBrowser];
 
   function generateProjectCards(ProjectList, numberOfCardsToGenerate) {
     let cardMarkeup = [];
