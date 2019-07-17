@@ -1,20 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.76b974a8.chunk.css",
-    "main.js": "/portfolio/static/js/main.4fc610aa.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.4fc610aa.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.d89e220f.chunk.css",
+    "main.js": "/portfolio/static/js/main.e6fe92b6.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.e6fe92b6.chunk.js.map",
     "runtime~main.js": "/portfolio/static/js/runtime~main.f308c8e6.js",
     "runtime~main.js.map": "/portfolio/static/js/runtime~main.f308c8e6.js.map",
-    "static/js/2.b5625112.chunk.js": "/portfolio/static/js/2.b5625112.chunk.js",
-    "static/js/2.b5625112.chunk.js.map": "/portfolio/static/js/2.b5625112.chunk.js.map",
+    "static/js/2.f097c90a.chunk.js": "/portfolio/static/js/2.f097c90a.chunk.js",
+    "static/js/2.f097c90a.chunk.js.map": "/portfolio/static/js/2.f097c90a.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.8ac52153b06743f3a409e9e04796d5d0.js": "/portfolio/precache-manifest.8ac52153b06743f3a409e9e04796d5d0.js",
+    "precache-manifest.8c4370673b65db9816eba47d53f3cd5f.js": "/portfolio/precache-manifest.8c4370673b65db9816eba47d53f3cd5f.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.76b974a8.chunk.css.map": "/portfolio/static/css/main.76b974a8.chunk.css.map",
+    "static/css/main.d89e220f.chunk.css.map": "/portfolio/static/css/main.d89e220f.chunk.css.map",
     "static/media/HushHush.png": "/portfolio/static/media/HushHush.07e5706f.png",
     "static/media/LaneBreachLogo.jpg": "/portfolio/static/media/LaneBreachLogo.bb836908.jpg",
     "static/media/React-icon.svg": "/portfolio/static/media/React-icon.05a3e30f.svg",
-    "static/media/android-logo.png": "/portfolio/static/media/android-logo.1e1a717a.png",
     "static/media/linkedinprofile.jpeg": "/portfolio/static/media/linkedinprofile.3023ccad.jpeg",
     "static/media/portfolio.png": "/portfolio/static/media/portfolio.be3bf6bb.png"
   }

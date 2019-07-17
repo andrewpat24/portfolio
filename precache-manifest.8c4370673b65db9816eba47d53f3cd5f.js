@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8ff657664f74dad163402af93323522d",
+    "revision": "128ea5adf3052456dff68d74015e9d36",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "ba403f09a2fa5988c1ea",
-    "url": "/portfolio/static/css/main.76b974a8.chunk.css"
+    "revision": "4fd643e12c70366d3839",
+    "url": "/portfolio/static/css/main.d89e220f.chunk.css"
   },
   {
-    "revision": "7617684cbaa299f306eb",
-    "url": "/portfolio/static/js/2.b5625112.chunk.js"
+    "revision": "9bb6183ba506018d8808",
+    "url": "/portfolio/static/js/2.f097c90a.chunk.js"
   },
   {
-    "revision": "ba403f09a2fa5988c1ea",
-    "url": "/portfolio/static/js/main.4fc610aa.chunk.js"
+    "revision": "4fd643e12c70366d3839",
+    "url": "/portfolio/static/js/main.e6fe92b6.chunk.js"
   },
   {
     "revision": "53ebc025fca807d4dbea",
@@ -30,10 +30,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "05a3e30fdf60ebe9d00cf4725d44bd42",
     "url": "/portfolio/static/media/React-icon.05a3e30f.svg"
-  },
-  {
-    "revision": "1e1a717aa872af9d87cedc5f09a54e02",
-    "url": "/portfolio/static/media/android-logo.1e1a717a.png"
   },
   {
     "revision": "3023ccad2092f4284ace86af69b50c64",
