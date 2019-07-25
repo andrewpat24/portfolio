@@ -2,7 +2,6 @@ import React from "react";
 import "../styles/ProjectCard.scss";
 
 function ProjectCardComponent(props) {
-  console.log(props.Source);
   const generateItemMarkeup = (props, field) => {
     if (typeof props[field] === "undefined") {
       return "";

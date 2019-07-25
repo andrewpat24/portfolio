@@ -52,8 +52,7 @@ function ProjectCardGeneratorComponent(props) {
     Source: "https://github.com/andrewpat24/portfolio"
   };
 
-  // https://github.com/andrewpat24/EventBrowser
-  const EventBrowser = {
+  const Expensify = {
     Title: "Expensify",
     Description: `A react application utilizing firebase where users can login to track their expenses.`,
     Image: ReactImg,
@@ -71,7 +70,7 @@ function ProjectCardGeneratorComponent(props) {
     Source: "https://rocky-beach-76443.herokuapp.com"
   };
 
-  const ProjectList = [HushHush, Emaily, LaneBreach, Portfolio, EventBrowser];
+  const ProjectList = [HushHush, Emaily, LaneBreach, Portfolio, Expensify];
 
   function generateProjectCards(ProjectList, numberOfCardsToGenerate) {
     let cardMarkeup = [];
