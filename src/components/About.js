@@ -27,7 +27,7 @@ function About() {
             <div className="about-resume-link horizontally-center">
               <a
                 class="button is-primary is-rounded"
-                href="https://github.com/andrewpat24"
+                href="https://drive.google.com/file/d/1xZtF-xnloTX99V7Zgwqy8kXgbOifMDsF/view"
                 target="_blank"
                 rel="noopener noreferrer"
               >
