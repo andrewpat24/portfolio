@@ -19,14 +19,14 @@ function About() {
             <div className="about-description subtitle is-3">
               I'm Andrew, a full stack developer from the Bay Area and graduate
               of San Francisco State University with a Bachelors of Science in
-              CompSci. I'm a result-oriented programmer with 2 years of
-              professional software development experience designing and
-              developing software with direct input from end-users to managing
-              development teams for enterprise-level projects.
+              CompSci. I'm a result-oriented programmer with professional
+              software development experience designing and developing software
+              with direct input from end-users to managing development teams for
+              enterprise-level projects.
             </div>
             <div className="about-resume-link horizontally-center">
               <a
-                class="button is-primary is-rounded"
+                className="button is-primary is-rounded"
                 href="https://drive.google.com/file/d/1xZtF-xnloTX99V7Zgwqy8kXgbOifMDsF/view"
                 target="_blank"
                 rel="noopener noreferrer"

@@ -6,8 +6,8 @@ function SkillsComponent() {
   // Frontend card props
   const frontendTitle = "Front-End Development";
   const frontendDescription = `
-    From jQuery to React and Bootstrap to rolling my own libraries, 
-    I'm an extremely flexible front-end developer with strong fundamentals 
+    From pure JavaScript to React, Bootstrap to rolling my own libraries, 
+    I'm a flexible front-end developer with strong fundamentals 
     that can adapt to any tech thrown at me.
   `;
   const frontendLanguages = ["HTML/CSS", "JavaScript", "TypeScript", "Sass"];
@@ -17,8 +17,8 @@ function SkillsComponent() {
   // Backend card props
   const backendTitle = "Back-end Development";
   const backendDescription = `
-    Developed backends for web stacks using JavaScript's Node.js as well as C#'s .NET Core. 
-    I have experience developing a multitude of backend features from DB operations, developing and working with API's, 
+    Created backends using JavaScript's Node.js . 
+    I have experience developing a multitude of backend features from DB operations, API's, 
     and authentication.  
   `;
   const backendLanguages = ["JavaScript", "Python", "Java", "C#"];
@@ -33,8 +33,8 @@ function SkillsComponent() {
   ];
 
   return (
-    <section className="Skills">
-      <div className="skills-container" id="Skills">
+    <section className="Skills" id="Skills">
+      <div className="skills-container">
         <div className="subtitle is-1 text-center">Skills</div>
         <div className="columns">
           <div className="column">

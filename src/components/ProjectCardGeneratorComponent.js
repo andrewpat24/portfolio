@@ -17,7 +17,8 @@ function ProjectCardGeneratorComponent(props) {
         file using the secret key as a password.`,
     Image: HushHushImg,
     Tools: ["Node.js", "Express", "React", "AWS Lambda", "MongoDB Atlas"],
-    Source: "https://github.com/hushhushpass/hushpass"
+    Source: "https://github.com/hushhushpass/hushpass",
+    Link: "https://hush-hush.herokuapp.com/"
   };
 
   const Emaily = {
@@ -33,7 +34,8 @@ function ProjectCardGeneratorComponent(props) {
       "MongoDB Atlas",
       "Udemy"
     ],
-    Source: "https://github.com/andrewpat24/emaily"
+    Source: "https://github.com/andrewpat24/emaily",
+    Link: "https://ancient-meadow-27611.herokuapp.com"
   };
 
   const LaneBreach = {
@@ -41,7 +43,8 @@ function ProjectCardGeneratorComponent(props) {
     Description: `An open source project to allow bicyclists commuters to easily report bike-lane blockages by streamlining the process to send the image and metadata directly to 311's servers.`,
     Image: LaneBreachImg,
     Tools: ["React", "Express", "Node.js", "Docker", "CircleCI"],
-    Source: "https://github.com/lanebreach/frontend"
+    Source: "https://github.com/lanebreach/frontend",
+    Link: "https://www.lanebreach.org/"
   };
 
   const Portfolio = {
@@ -49,7 +52,8 @@ function ProjectCardGeneratorComponent(props) {
     Description: `A modular portfolio that can be easily modified by and for other developers.`,
     Image: PortfolioImg,
     Tools: ["React", "Bulma"],
-    Source: "https://github.com/andrewpat24/portfolio"
+    Source: "https://github.com/andrewpat24/portfolio",
+    Link: "https://andrewpat24.github.io/portfolio"
   };
 
   const Expensify = {
@@ -67,7 +71,8 @@ function ProjectCardGeneratorComponent(props) {
       "Google OAuth",
       "Udemy"
     ],
-    Source: "https://rocky-beach-76443.herokuapp.com"
+    Source: "https://rocky-beach-76443.herokuapp.com",
+    Link: "https://rocky-beach-76443.herokuapp.com"
   };
 
   const ProjectList = [HushHush, Emaily, LaneBreach, Portfolio, Expensify];
@@ -88,6 +93,7 @@ function ProjectCardGeneratorComponent(props) {
             Image={ProjectList[ii].Image}
             Tools={ProjectList[ii].Tools}
             Source={ProjectList[ii].Source}
+            Link={ProjectList[ii].Link}
           />
         </div>
       );

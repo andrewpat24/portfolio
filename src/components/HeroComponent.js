@@ -14,7 +14,7 @@ function HeroComponent() {
           <div className="subtitle hero-subtitle has-text-light">Hi,</div>
           <div className="title hero-title has-text-light">I'm Andrew.</div>
           <div className="subtitle hero-position hero-subtitle has-text-pop-color">
-            Software Developer
+            Full Stack Developer
           </div>
 
           <div className="static-columns hero-contact-icons horizontally-center vertically-center">

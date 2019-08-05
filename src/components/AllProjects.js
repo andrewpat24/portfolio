@@ -11,7 +11,7 @@ function Home() {
           <div className="button-container">
             <Link
               to="/portfolio"
-              class="button home-btn is-info is-outlined is-large"
+              className="button home-btn is-info is-outlined is-large"
             >
               Home
             </Link>

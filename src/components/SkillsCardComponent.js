@@ -42,7 +42,9 @@ function SkillsCardComponent(props) {
               </div>
 
               <div className="card-section">
-                <div className="subtitle text-center is-2">Frameworks</div>
+                <div className="subtitle text-center is-2">
+                  Frameworks and Libraries
+                </div>
                 <div className="item-list horizontally-center">
                   <div className="static-columns">
                     {generateItemMarkeup(props, "Frameworks")}

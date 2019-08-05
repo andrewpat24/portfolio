@@ -15,8 +15,8 @@ function ProjectsComponent() {
               <div className="subtitle is-1">Projects</div>
               <div className="projects-description">
                 <p>
-                  A collection of projects I've done either on my own or through
-                  online classes.
+                  Here is a collection of projects to highlight what I've
+                  accomplished.
                 </p>
               </div>
               <div className="projects-page-link">
